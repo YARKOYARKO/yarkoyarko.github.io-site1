@@ -1,1 +1,160 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.container {
+  max-width: 1140px;
+  margin: auto;
+  width: 100%;
+}
+
+.navbar {
+  height: 700px;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 40px;
+  padding-top: 40px;
+}
+
+.navbar-text {
+  width: 150px;
+  line-height: 26px;
+  border-left: 2px solid #e0e0e0;
+  padding-left: 39px;
+  color: #270e15;
+}
+
+.navbar-logo {
+  margin-right: 40px;
+}
+
+.navbar-phone {
+  background-color: white;
+  border-radius: 25px 25px 25px 25px;
+  margin-left: auto;
+  width: 217px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar-phone__picture {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 15px;
+  margin-left: 10px;
+  background: #ff1b60 url("/image/icons/phone.svg") center center no-repeat;
+}
+
+.navbar-phone__text {
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #270e15;
+}
+
+.header {
+  background: url("/image/girl.png") no-repeat top 100% right 13%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 15%, url("/image/3.png") no-repeat top 65% right 5%, url("/image/4.png") no-repeat top 15% right 50%, -webkit-gradient(linear, left top, right top, color-stop(46%, #ffffff), color-stop(46%, #f6f7f9));
+  background: url("/image/girl.png") no-repeat top 100% right 13%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 15%, url("/image/3.png") no-repeat top 65% right 5%, url("/image/4.png") no-repeat top 15% right 50%, linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%);
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 70%;
+  right: 0;
+  width: 220px;
+  height: 322px;
+  background: url("/image/ocean2.png") no-repeat center right;
+  z-index: 99999;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  right: 49%;
+  width: 151px;
+  height: 173px;
+  background: url("/image/ocean.png") no-repeat center center;
+}
+
+@font-face {
+  font-family: 'Futura PT Heavy';
+  src: url("../fonts/FuturaPT-Heavy.eot");
+  src: url("../fonts/FuturaPT-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Heavy.woff") format("woff"), url("../fonts/FuturaPT-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT ExtraBold';
+  src: url("../fonts/FuturaPT-ExtraBold.eot");
+  src: url("../fonts/FuturaPT-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBold.woff") format("woff"), url("../fonts/FuturaPT-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display Regular';
+  src: url("../fonts/PlayfairDisplay-Regular.eot");
+  src: url("../fonts/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff"), url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans Regular';
+  src: url("../fonts/NotoSans.eot");
+  src: url("../fonts/NotoSans.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSans.woff") format("woff"), url("../fonts/NotoSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1920px) {
+  .header {
+    background: url("/image/girl.png") no-repeat top 100% right 13%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 15%, url("/image/4.png") no-repeat top 15% right 45%, -webkit-gradient(linear, left top, right top, color-stop(46%, #ffffff), color-stop(46%, #f6f7f9));
+    background: url("/image/girl.png") no-repeat top 100% right 13%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 15%, url("/image/4.png") no-repeat top 15% right 45%, linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%);
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 1858px) {
+  .header {
+    background: url("/image/girl.png") no-repeat top 100% right 13%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 15%, url("/image/4.png") no-repeat top 15% right 45%, -webkit-gradient(linear, left top, right top, color-stop(46%, #ffffff), color-stop(46%, #f6f7f9));
+    background: url("/image/girl.png") no-repeat top 100% right 13%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 15%, url("/image/4.png") no-repeat top 15% right 45%, linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%);
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 1694px) {
+  .header {
+    background: url("/image/girl.png") no-repeat top 100% right 15%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 10%, url("/image/4.png") no-repeat top 15% right 45%, -webkit-gradient(linear, left top, right top, color-stop(46%, #ffffff), color-stop(46%, #f6f7f9));
+    background: url("/image/girl.png") no-repeat top 100% right 15%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 10%, url("/image/4.png") no-repeat top 15% right 45%, linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%);
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 1418px) {
+  .header {
+    background: url("/image/girl.png") no-repeat top 100% right 0%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 5%, url("/image/4.png") no-repeat top 15% right 45%, -webkit-gradient(linear, left top, right top, color-stop(46%, #ffffff), color-stop(46%, #f6f7f9));
+    background: url("/image/girl.png") no-repeat top 100% right 0%, url("/image/1.png") no-repeat top 50% right 50%, url("/image/2.png") no-repeat top 25% right 5%, url("/image/3.png") no-repeat top 65% right 5%, url("/image/4.png") no-repeat top 15% right 45%, linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%);
+    height: 700px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

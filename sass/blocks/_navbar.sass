@@ -1,0 +1,95 @@
+
+    
+.navbar
+    // background: url("/image/girl.png") no-repeat top 100% right 33% , 
+    // url("/image/1.png") no-repeat top 50% right 50% ,
+    // url("/image/2.png") no-repeat top 25% right 15% , 
+    // url("/image/3.png") no-repeat top 65% right 25% ,
+    // url("/image/3.png") no-repeat top 15% right 50% ,
+    // url("/image/ocean2.png") no-repeat top 120% right 0% ,    
+    // linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%) 
+    height: 700px
+    
+
+
+    
+    &-wrap
+        display: flex
+        align-items: center
+        min-height: 40px
+        padding-top: 40px
+         
+
+    &-text
+        
+        width: 150px
+        line-height: 26px
+        border-left: 2px solid #e0e0e0
+        padding-left: 39px
+        color: $bred
+
+    &-logo
+        margin-right: 40px 
+
+    &-phone
+        background-color: white
+        border-radius: 25px 25px 25px 25px 
+        margin-left: auto
+        width: 217px
+        height: 55px
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        font-size: 14px
+        font-weight: bold
+        
+
+    &-phone__picture
+        width: 35px
+        height: 35px
+        border-radius: 50%
+        background-color: red
+        margin-right: 15px
+        margin-left: 10px    
+        background: $pinkbuttion url("/image/icons/phone.svg") center center no-repeat
+        
+
+    &-phone__text
+        font-size: 16px
+        line-height: 60px
+        font-weight: bold
+        color: $bred    
+            
+
+.header
+    background: url("/image/girl.png") no-repeat top 100% right 13% , 
+    url("/image/1.png") no-repeat top 50% right 50% ,
+    url("/image/2.png") no-repeat top 25% right 15% , 
+    url("/image/3.png") no-repeat top 65% right 5% ,
+    url("/image/4.png") no-repeat top 15% right 50% ,    
+    linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%)
+    position: relative
+
+    &::before
+        content: ''
+        position: absolute
+        top: 70%
+        right: 0
+        width: 220px
+        height: 322px
+        background: url("/image/ocean2.png") no-repeat center right  
+        z-index: 99999
+        
+    
+    &::after
+        content: ''
+        position: absolute
+        top: 90%
+        right: 49%
+        width: 151px
+        height: 173px
+        background: url("/image/ocean.png") no-repeat center center 
+    
+        
+
+    // linear-gradient(90deg, #ffffff 46%, #f6f7f9 46%)

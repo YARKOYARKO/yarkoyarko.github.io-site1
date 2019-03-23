@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Futura PT Heavy';
+    src: url('../fonts/FuturaPT-Heavy.eot');
+    src: url('../fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('../fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Futura PT ExtraBold';
+        src: url('../fonts/FuturaPT-ExtraBold.eot');
+        src: url('../fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-ExtraBold.woff') format('woff'),
+        url('../fonts/FuturaPT-ExtraBold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+
+
+    @font-face {
+        font-family: 'Playfair Display Regular';
+        src: url('../fonts/PlayfairDisplay-Regular.eot');
+        src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Noto Sans Regular';
+            src: url('../fonts/NotoSans.eot');
+            src: url('../fonts/NotoSans.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/NotoSans.woff') format('woff'),
+            url('../fonts/NotoSans.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
+
+            @mixin  heavy {
+                font-family: 'Futura PT Heavy', sans-serif;
+            }
+
+            @mixin ExtraBold {
+                font-family: 'Futura PT ExtraBold', sans-serif;
+            }
+
+            @mixin pdr {
+                font-family: 'Playfair Display Regular', sans-serif;
+            }
+
+            @mixin nsr {
+                font-family: 'Noto Sans Regular', sans-serif;
+            }
